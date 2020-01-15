@@ -34,3 +34,7 @@ MailArchiver.scpt must be edited to match your configuration:
 | `archiveMonthsTimeWindow` | N/A |The archiving time period in months. i.e. every email older than those n months will be moved to `archiveMailbox` |
 | `preventSameDayArchiving` | N/A | Prevent archiving process to be executed more than once per day. I recommend to set this to true. true of false|
 | `logFile` | N/A | Script will log information into that file accessible from the Console app|
+
+## Credit
+
+I took large inspiration from [MacMail-Archiver](https://github.com/pereljon/MacMail-Archiver) script. [pereljon](https://github.com/pereljon) deserves credit for that, thank you big time!
